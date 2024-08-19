@@ -62,10 +62,6 @@ class Classifier():
             outputs = self.model(ids, mask, token_type_ids)
             outputs = torch.sigmoid(outputs).cpu().detach().numpy()
             return outputs[0]
-classifier=Classifier()
-pdf_text,other_text=pp.get_clean_text("Labor Market Shocks and the Demand for Trade Protection_ Evidence from Online Surveys")
-prediction=classifier.predict(pdf_text)
-print(prediction)
 
 
 

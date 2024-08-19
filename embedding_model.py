@@ -36,7 +36,3 @@ def extract_features(text):
     most_relevant_idx = find_most_relevant_chunk(chunks,chunk_embeddings)
     most_relevant_text = tokenizer.decode(most_relevant_idx, skip_special_tokens=True)
     return most_relevant_idx
-
-pdf_text,other_text=ppdf.get_clean_text("Labor Market Shocks and the Demand for Trade Protection_ Evidence from Online Surveys")
-tensor_string = ','.join(map(str, extract_features(pdf_text).numpy()))
-print(tensor_string)
