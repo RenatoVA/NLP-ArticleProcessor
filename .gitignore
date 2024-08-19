@@ -17,6 +17,9 @@ models
 downloaded_documents
 downloaded_documents2
 bees
+.vscode
+.~lock.data.xlsx#
+
 
 
 # Ignorar archivos de compilación
