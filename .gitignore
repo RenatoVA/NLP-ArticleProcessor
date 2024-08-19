@@ -1,0 +1,26 @@
+# Ignorar archivos temporales de sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignorar carpetas de entornos virtuales
+venv/
+env/
+
+# Ignorar dependencias
+node_modules/
+__pycache__/
+pdf_train
+pdf_train2
+models
+downloaded_documents
+downloaded_documents2
+bees
+
+
+# Ignorar archivos de compilación
+*.out
+*.class
+*.o
+
