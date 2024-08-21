@@ -35,4 +35,4 @@ def extract_features(text):
         chunk_embeddings.append(embedding.numpy().flatten())
     most_relevant_idx = find_most_relevant_chunk(chunks,chunk_embeddings)
     most_relevant_text = tokenizer.decode(most_relevant_idx, skip_special_tokens=True)
-    return most_relevant_idx
+    return most_relevant_text

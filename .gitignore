@@ -19,7 +19,7 @@ downloaded_documents2
 bees
 .vscode
 .~lock.data.xlsx#
-
+.env
 
 
 # Ignorar archivos de compilación
@@ -27,3 +27,4 @@ bees
 *.class
 *.o
 
+.~lock.train_base_concatenated.xlsx#
